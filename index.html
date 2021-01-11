@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn RxJS</title>
+ 
+    <style>
+        body { font-family: 'Arial'; background: #ececec; }
+        ul { list-style-type: none; padding: 20px; }
+        li { padding: 20px; background: white; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h1>RX JS Demo</h1>
+    <h3>Select anyone to see output</h3>
+    <form>
+        <input type="radio" name="choice" value="obs"> Observable
+        <input type="radio" name="choice" value="sub"> Subject
+        <input type="radio" name="choice" value="bsub"> Behaviour Subject
+        <input type="radio" name="choice" value="rsub"> Replay Subject
+        <input type="radio" name="choice" value="asub"> Async Subject
+        <input type="radio" name="choice" value="mergeop"> Merge Operator
+        <input type="radio" name="choice" value="mapop"> Map Operator
+        <input type="radio" name="choice" value="pluckop"> Pluck Operator
+        <input type="radio" name="choice" value="skipuntilop"> Skip Until Operator
+        <input type="button" id="btn" value="Play">
+    </form>
+    <ul id="output"></ul>
+
+    <script src="/bundle.js"></script>
+</body>
+</html>
